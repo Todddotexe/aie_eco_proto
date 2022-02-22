@@ -64,12 +64,14 @@ namespace EconomyPrototype {
 		[SerializeField]
 		private TMP_Text m_PlaybackTimeText;
 
+		[SerializeField]
+		private GameObject m_PlayButton;
+
 		#endregion
 
 
 		#region Private Fields - Non Serialized
-
-		[NonSerialized]
+	    [NonSerialized]
 		private float m_PlaybackTime;
 
 		[NonSerialized]
